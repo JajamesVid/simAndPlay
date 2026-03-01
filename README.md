@@ -1,2 +1,5 @@
 # simAndPlay
 The most easy use ROS simulator in the world, stop crashing your robots until tested
+
+prompt chatgpt:
+Quiero realizar un simulador para robotica que combine los actuales gazebo yrviz/foxglove, es decir, que, sin necesidad de configuracion o instalacion alguna, un usuario o empresa de robotica pueda, descargarse el programa, abrirlo y directamente probar un algoritmo de SLAM o Visual odometry o algun tipo de localizacion en un entorno real pero ideal. Creo que en muchas empresas de hoy en dia, sobretodo startups, no se dedica tiempo a la simulacion porque cuesta mucho ponerla a punto para realizar estos test. Quiero que se pueda simular el robot y el mundo mediante gazebo-headless y que a la vez se puedan visualizar topics de sensores como nubes de puntos, camaras ya perfectamente calibradas, frame del robot etc. Empezamos mediante ros1 noetic, mas adelante se podria abrir el programa, elegir el robot, los sensores que tiene y su posicion respecto al frame del robot, la version de ros1 ros 2 y a volar
