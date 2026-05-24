@@ -1,0 +1,4 @@
+source;share/simandplay/local_setup.bash
+source;share/simandplay/local_setup.dsv
+source;share/simandplay/local_setup.sh
+source;share/simandplay/local_setup.zsh

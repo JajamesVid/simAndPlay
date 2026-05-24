@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  simulator:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    container_name: simandplay
+    ports:
+      - "6080:6080"   # NoVNC → http://localhost:6080/vnc.html
+      - "5900:5900"   # VNC directo (opcional)
+      - "8765:8765"   # Foxglove bridge
+    volumes:
+      - ./ros2_ws:/workspace/ros2_ws
+      - ./app:/workspace/app
+    devices:
+      - /dev/dri:/dev/dri   # AMD Radeon iGPU passthrough
+    environment:
+      - IGN_IP=127.0.0.1
+      - ROS_DOMAIN_ID=0
+    ipc: host
+    stdin_open: true
+    tty: true

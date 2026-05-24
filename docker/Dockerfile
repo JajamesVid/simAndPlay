@@ -45,15 +45,52 @@ RUN apt-get update && apt-get install -y \
     ros-humble-ros-gz-bridge \
     ros-humble-ros-gz-sim \
     gz-fortress \
+    ros-humble-xacro \
+    ros-humble-robot-state-publisher \
+    ros-humble-joint-state-publisher \
+    ros-humble-navigation2 \
+    ros-humble-nav2-bringup \
+    ros-humble-slam-toolbox \
+    ros-humble-foxglove-bridge \
     python3-colcon-common-extensions \
     python3-vcstool \
     python3-pip \
     nano \
+    # --- Display virtual (Xvfb + VNC + NoVNC) ---
+    xvfb \
+    x11vnc \
+    novnc \
+    websockify \
+    # --- Qt / OpenGL dependencies ---
+    libgl1-mesa-glx \
+    libgl1-mesa-dri \
+    libgles2-mesa-dev \
+    libegl1-mesa \
+    libxcb-cursor0 \
+    libxcb-xinerama0 \
+    libxcb-icccm4 \
+    libxcb-image0 \
+    libxcb-keysyms1 \
+    libxcb-randr0 \
+    libxcb-render-util0 \
+    libxkbcommon-x11-0 \
+    libx11-xcb1 \
     && rm -rf /var/lib/apt/lists/*
+
+# --- Python app dependencies ---
+RUN pip3 install --no-cache-dir \
+    PyQt6 \
+    vispy \
+    numpy \
+    PyOpenGL
 
 # Auto source ROS
 RUN echo "source /opt/ros/$ROS_DISTRO/setup.bash" >> /root/.bashrc
 
+ENV IGN_IP=127.0.0.1
+
 WORKDIR /workspace
 
-CMD ["/bin/bash"]
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]

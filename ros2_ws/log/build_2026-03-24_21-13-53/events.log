@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.000098] (simandplay) JobQueued: {'identifier': 'simandplay', 'dependencies': OrderedDict()}
+[0.000140] (simandplay) JobStarted: {'identifier': 'simandplay'}
+[0.006190] (simandplay) JobProgress: {'identifier': 'simandplay', 'progress': 'cmake'}
+[0.007442] (simandplay) Command: {'cmd': ['/usr/bin/cmake', '/workspace/ros2_ws/src/simandplay', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/simandplay'], 'cwd': '/workspace/ros2_ws/build/simandplay', 'env': OrderedDict([('IGN_IP', '127.0.0.1'), ('HOSTNAME', 'ac35d1a3af02'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/ros2_ws/build/simandplay'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.093496] (simandplay) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099485] (-) TimerEvent: {}
+[0.164823] (simandplay) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.179006] (simandplay) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199636] (-) TimerEvent: {}
+[0.283228] (simandplay) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.291165] (simandplay) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.291390] (simandplay) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.291694] (simandplay) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.294151] (simandplay) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299704] (-) TimerEvent: {}
+[0.393811] (simandplay) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.399837] (-) TimerEvent: {}
+[0.403009] (simandplay) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.403219] (simandplay) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.403595] (simandplay) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.405926] (simandplay) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499919] (-) TimerEvent: {}
+[0.555334] (simandplay) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600031] (-) TimerEvent: {}
+[0.616030] (simandplay) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700156] (-) TimerEvent: {}
+[0.705904] (simandplay) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.721143] (simandplay) StdoutLine: {'line': b'-- Generating done\n'}
+[0.725148] (simandplay) StdoutLine: {'line': b'-- Build files have been written to: /workspace/ros2_ws/build/simandplay\n'}
+[0.729002] (simandplay) CommandEnded: {'returncode': 0}
+[0.729418] (simandplay) JobProgress: {'identifier': 'simandplay', 'progress': 'build'}
+[0.729991] (simandplay) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros2_ws/build/simandplay', '--', '-j16', '-l16'], 'cwd': '/workspace/ros2_ws/build/simandplay', 'env': OrderedDict([('IGN_IP', '127.0.0.1'), ('HOSTNAME', 'ac35d1a3af02'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/ros2_ws/build/simandplay'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.793682] (simandplay) CommandEnded: {'returncode': 0}
+[0.794352] (simandplay) JobProgress: {'identifier': 'simandplay', 'progress': 'install'}
+[0.800373] (-) TimerEvent: {}
+[0.806665] (simandplay) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/ros2_ws/build/simandplay'], 'cwd': '/workspace/ros2_ws/build/simandplay', 'env': OrderedDict([('IGN_IP', '127.0.0.1'), ('HOSTNAME', 'ac35d1a3af02'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/ros2_ws/build/simandplay'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.819143] (simandplay) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.819500] (simandplay) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.819962] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/launch/sim.launch.py\n'}
+[0.837626] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/urdf/robot.urdf.xacro\n'}
+[0.860775] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/worlds/simple_room.sdf\n'}
+[0.874970] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/config/foxglove_layout.json\n'}
+[0.888709] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/ament_index/resource_index/package_run_dependencies/simandplay\n'}
+[0.900659] (-) TimerEvent: {}
+[0.903646] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/ament_index/resource_index/parent_prefix_path/simandplay\n'}
+[0.916854] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/environment/ament_prefix_path.sh\n'}
+[0.931769] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/environment/ament_prefix_path.dsv\n'}
+[0.944558] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/environment/path.sh\n'}
+[0.962121] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/environment/path.dsv\n'}
+[0.968615] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/local_setup.bash\n'}
+[0.983780] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/local_setup.sh\n'}
+[0.998351] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/local_setup.zsh\n'}
+[1.000765] (-) TimerEvent: {}
+[1.011862] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/local_setup.dsv\n'}
+[1.023854] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/package.dsv\n'}
+[1.042350] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/ament_index/resource_index/packages/simandplay\n'}
+[1.061181] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/cmake/simandplayConfig.cmake\n'}
+[1.073262] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/cmake/simandplayConfig-version.cmake\n'}
+[1.089005] (simandplay) StdoutLine: {'line': b'-- Symlinking: /workspace/ros2_ws/install/simandplay/share/simandplay/package.xml\n'}
+[1.098335] (simandplay) CommandEnded: {'returncode': 0}
+[1.100874] (-) TimerEvent: {}
+[1.111489] (simandplay) JobEnded: {'identifier': 'simandplay', 'rc': 0}
+[1.112002] (-) EventReactorShutdown: {}

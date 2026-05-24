@@ -1,0 +1,47 @@
+{
+  "configById": {
+    "3d!a": {
+      "cameraState": {
+        "distance": 8,
+        "perspective": true,
+        "phi": 60,
+        "target": [0, 0, 0],
+        "targetOffset": [0, 0, 0],
+        "targetOrientation": [0, 0, 0, 1],
+        "thetaOffset": 45
+      },
+      "followTf": "base_link",
+      "scene": {
+        "enableStats": false,
+        "transforms": {
+          "axisScale": 0.5,
+          "editable": false,
+          "showLabel": true
+        }
+      },
+      "topics": {
+        "/scan": {
+          "visible": true,
+          "colorMode": "flat",
+          "flatColor": "#ff4444",
+          "pointSize": 3
+        },
+        "/odom": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "globalVariables": {},
+  "layout": {
+    "direction": "row",
+    "first": "3d!a",
+    "splitPercentage": 100
+  },
+  "linkedGlobalVariables": [],
+  "playbackConfig": {
+    "speed": 1
+  },
+  "userNodes": {},
+  "version": "foxglove.layout@1"
+}

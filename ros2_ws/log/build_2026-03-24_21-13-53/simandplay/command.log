@@ -1,0 +1,6 @@
+Invoking command in '/workspace/ros2_ws/build/simandplay': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/simandplay -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/simandplay
+Invoked command in '/workspace/ros2_ws/build/simandplay' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/ros2_ws/src/simandplay -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/simandplay
+Invoking command in '/workspace/ros2_ws/build/simandplay': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/simandplay -- -j16 -l16
+Invoked command in '/workspace/ros2_ws/build/simandplay' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/simandplay -- -j16 -l16
+Invoking command in '/workspace/ros2_ws/build/simandplay': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/simandplay
+Invoked command in '/workspace/ros2_ws/build/simandplay' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/simandplay

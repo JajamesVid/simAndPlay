@@ -1,0 +1,1 @@
+/workspace/ros2_ws/build/simandplay/ament_cmake_environment_hooks/local_setup.bash
